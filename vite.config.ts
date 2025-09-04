@@ -3,7 +3,7 @@ import type {ConfigEnv, UserConfig} from 'vite'
 import {loadEnv} from 'vite'
 import {createVitePlugins} from './build/vite'
 import {exclude, include} from "./build/vite/optimize"
-// 当前执行node命令时文件夹的地址(工作目录)
+// 当前执行node命令时文件夹的地址(工作目录合集)
 const root = process.cwd()
 
 // 路径查找
